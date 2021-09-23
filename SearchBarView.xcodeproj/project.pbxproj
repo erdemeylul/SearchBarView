@@ -12,6 +12,7 @@
 		CA470F4F26EB3DBB00ECAA21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA470F4E26EB3DBB00ECAA21 /* Assets.xcassets */; };
 		CA470F5226EB3DBB00ECAA21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA470F5126EB3DBB00ECAA21 /* Preview Assets.xcassets */; };
 		CA470F5A26EB3DD300ECAA21 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA470F5926EB3DD300ECAA21 /* SearchBarView.swift */; };
+		CA57F92C26FCB4D000166405 /* TrialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA57F92B26FCB4D000166405 /* TrialView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CA470F5126EB3DBB00ECAA21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA470F5326EB3DBB00ECAA21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA470F5926EB3DD300ECAA21 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		CA57F92B26FCB4D000166405 /* TrialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrialView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CA470F5326EB3DBB00ECAA21 /* Info.plist */,
 				CA470F5026EB3DBB00ECAA21 /* Preview Content */,
 				CA470F5926EB3DD300ECAA21 /* SearchBarView.swift */,
+				CA57F92B26FCB4D000166405 /* TrialView.swift */,
 			);
 			path = SearchBarView;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA470F4D26EB3DB400ECAA21 /* ContentView.swift in Sources */,
+				CA57F92C26FCB4D000166405 /* TrialView.swift in Sources */,
 				CA470F5A26EB3DD300ECAA21 /* SearchBarView.swift in Sources */,
 				CA470F4B26EB3DB400ECAA21 /* SearchBarViewApp.swift in Sources */,
 			);

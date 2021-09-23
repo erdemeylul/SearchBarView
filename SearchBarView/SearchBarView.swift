@@ -15,7 +15,7 @@ struct SearchBarView: View {
     var body: some View {
         HStack {
             
-            TextField("Search", text: $text)
+            TextField("search", text: $text)
                 .padding(12)
                 .padding(.leading, 24)
                 .background(Color.gray.opacity(0.34))
@@ -66,7 +66,7 @@ struct SearchBarView: View {
                 .animation(.default)
             }
             
-        }.frame(width: UIScreen.main.bounds.width - 20, height: 60)
+        }.frame(width: UIScreen.main.bounds.width - 10, height: 60)
     }
 }
 
